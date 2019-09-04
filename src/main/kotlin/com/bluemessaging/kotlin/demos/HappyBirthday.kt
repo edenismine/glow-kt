@@ -26,7 +26,7 @@ class HappyBirthday : CliktCommand(help = "Wishes you and/or your coworkers happ
 
     /**
      * Reads the user's coworkers' data, filters the appropriate [User]s, and wishes them happy birthday.
-     * If he user provided their birthday through the [me] option, the program either wishes the user a happy
+     * If the user provided their birthday through the [me] option, the program either wishes the user a happy
      * birthday or informs them that their birthday is still in the future.
      */
     override fun run() {
