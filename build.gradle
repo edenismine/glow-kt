@@ -1,0 +1,34 @@
+plugins {
+    // Kotlin
+    id 'org.jetbrains.kotlin.jvm' version '1.3.50'
+
+    // Run as an application
+    id 'application'
+
+    // Dokka documentation engine
+    id 'org.jetbrains.dokka' version '0.9.18'
+}
+
+group 'com.bluemessaging'
+version '1.0-SNAPSHOT'
+sourceCompatibility = 1.8
+mainClassName = 'com.bluemessaging.kotlin.AppKt'
+
+repositories {
+    jcenter()
+    maven { url "http://184.73.254.191/nexus/content/groups/public" }
+}
+
+dependencies {
+    // Kotlin stdlib
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    // CLI framework
+    implementation 'com.github.ajalt:clikt:2.1.0'
+}
+
+compileKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}
+compileTestKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}
