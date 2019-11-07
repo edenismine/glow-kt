@@ -1,6 +1,6 @@
-package com.bluemessaging.kotlin.demos
+package com.globant.kotlin.demos
 
-import com.bluemessaging.kotlin.model.Either
+import com.globant.kotlin.model.Either
 import com.github.ajalt.clikt.core.CliktCommand
 import com.github.ajalt.clikt.parameters.arguments.argument
 import com.github.ajalt.clikt.parameters.arguments.multiple

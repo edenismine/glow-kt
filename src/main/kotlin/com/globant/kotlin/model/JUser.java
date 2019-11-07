@@ -1,4 +1,4 @@
-package com.bluemessaging.kotlin.model;
+package com.globant.kotlin.model;
 
 import java.time.LocalDate;
 import java.util.Objects;

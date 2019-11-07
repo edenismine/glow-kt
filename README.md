@@ -1,4 +1,4 @@
-# Bluemessaging Kotlin Bootcamp
+# Globant Kotlin Bootcamp
 
 This repository contains a few Kotlin examples that can help developers that are
 new to Kotlin wrap their heads around most of the key Kotlin idioms, practices,
@@ -9,7 +9,7 @@ lang to fellow developers.
 
 ## Included demos
 
-All demos are exposed via the `blue-kotlin` command (installation instructions
+All demos are exposed via the `glow-kt` command (installation instructions
 can be found in the install section).
 
 ### Safe error handling (`parseints`)
@@ -69,18 +69,18 @@ Use [Gradle]() to install the application:
 $ ./gradlew install
 ```
 
-This will install the application inside `./build/install/blue-kotlin`. Lastly,
+This will install the application inside `./build/install/glow-kt`. Lastly,
 add the `bin` folder within said directory to your `PATH` and enjoy!
 
 ## Usage
 
-Simply run the blue-kotlin command (or any of its subcommands) with the `-h`
+Simply run the glow-kt command (or any of its subcommands) with the `-h`
 flag and help will come your way:
 
 ```
-Usage: blue-kotlin [OPTIONS] COMMAND [ARGS]...
+Usage: glow-kt [OPTIONS] COMMAND [ARGS]...
 
-  Bluemessaging Kotlin Bootcamp utility
+  Globant Kotlin Bootcamp utility
 
 Options:
   -h, --help  Show this message and exit
@@ -93,14 +93,14 @@ This command provides a way to run a few Kotlin examples that can help
 developers that are new to Kotlin wrap their heads around most of the key
 Kotlin idioms, practices,etc.
 
-It was developed by Daniel Aragon (laragon@bluemessaging.com) as a tool to
+It was developed by Daniel Aragon (laragon@globant.com) as a tool to
 teach the kotlin lang to fellow developers.
 ```
 
 ### parseints
 
 ```
-Usage: blue-kotlin parseints [OPTIONS] [integers]...
+Usage: glow-kt parseints [OPTIONS] [integers]...
 
   Parse a list of integers
 
@@ -114,7 +114,7 @@ Arguments:
 ### happybirthday
 
 ```
-Usage: blue-kotlin happybirthday [OPTIONS]
+Usage: glow-kt happybirthday [OPTIONS]
 
   Wishes you and/or your coworkers happy birthday!
 

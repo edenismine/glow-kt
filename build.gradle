@@ -9,14 +9,13 @@ plugins {
     id 'org.jetbrains.dokka' version '0.9.18'
 }
 
-group 'com.bluemessaging'
+group 'com.globant'
 version '1.0-SNAPSHOT'
 sourceCompatibility = 1.8
-mainClassName = 'com.bluemessaging.kotlin.AppKt'
+mainClassName = 'com.globant.kotlin.AppKt'
 
 repositories {
     jcenter()
-    maven { url "http://184.73.254.191/nexus/content/groups/public" }
 }
 
 dependencies {

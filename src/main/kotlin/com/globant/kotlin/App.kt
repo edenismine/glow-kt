@@ -1,12 +1,12 @@
-package com.bluemessaging.kotlin
+package com.globant.kotlin
 
-import com.bluemessaging.kotlin.demos.HappyBirthday
-import com.bluemessaging.kotlin.demos.ParseInts
+import com.globant.kotlin.demos.HappyBirthday
+import com.globant.kotlin.demos.ParseInts
 import com.github.ajalt.clikt.core.NoRunCliktCommand
 import com.github.ajalt.clikt.core.subcommands
 
 /**
- * Blue Kotlin App
+ * Glow Kotlin App
  */
 class App {
     /**
@@ -14,17 +14,17 @@ class App {
      * help developers that are new to Kotlin wrap their heads around most
      * of the key Kotlin idioms, practices,etc.
      *
-     * @author Daniel Aragon (laragon@bluemessaging.com)
+     * @author Daniel Aragon (luis.aragon@globant.com)
      */
     companion object Demo :  NoRunCliktCommand(
-            name = "blue-kotlin",
-            help = "Bluemessaging Kotlin Bootcamp utility",
+            name = "glow-kt",
+            help = "Kotlin Bootcamp utility",
             epilog = """
             This command provides a way to run a few Kotlin examples that can
             help developers that are new to Kotlin wrap their heads around most
             of the key Kotlin idioms, practices,etc.
             
-            It was developed by Daniel Aragon (laragon@bluemessaging.com) as a
+            It was developed by Daniel Aragon (luis.aragon@globant.com) as a
             tool to teach the kotlin lang to fellow developers.
         """.trimIndent()
     ) {

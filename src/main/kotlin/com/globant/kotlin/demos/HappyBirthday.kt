@@ -1,6 +1,6 @@
-package com.bluemessaging.kotlin.demos
+package com.globant.kotlin.demos
 
-import com.bluemessaging.kotlin.model.User
+import com.globant.kotlin.model.User
 import com.github.ajalt.clikt.core.CliktCommand
 import com.github.ajalt.clikt.parameters.options.option
 import com.github.ajalt.clikt.parameters.options.triple

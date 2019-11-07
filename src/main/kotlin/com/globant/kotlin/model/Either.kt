@@ -1,4 +1,4 @@
-package com.bluemessaging.kotlin.model
+package com.globant.kotlin.model
 
 /**
  * Represents a value of one of two possible types (a disjoint union.) Instances
